@@ -1,0 +1,107 @@
+html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="WebMarket CI crée des boutiques en ligne personnalisées pour tous les commerces en Côte d'Ivoire.">
+<title>WebMarket CI | Votre commerce en ligne</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#0b0b0f;color:#fff;line-height:1.6}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 7%;background:#101015;border-bottom:1px solid #292333}
+.logo{font-size:23px;font-weight:bold}
+.logo span{color:#9b5cff}
+nav a{color:white;text-decoration:none;margin-left:18px;font-size:14px}
+nav a:hover{color:#a66aff}
+.hero{padding:100px 7%;text-align:center;background:radial-gradient(circle at top,#351456,#0b0b0f 70%)}
+.tag{display:inline-block;padding:8px 16px;border:1px solid #7040a9;border-radius:30px;color:#c7a3ff;margin-bottom:25px}
+h1{font-size:clamp(35px,6vw,58px);line-height:1.2;max-width:850px;margin:auto}
+h1 span{color:#a66aff}
+.hero p{color:#c0b9ca;max-width:620px;margin:22px auto}
+.btn{display:inline-block;background:#873cff;color:white;padding:14px 25px;border-radius:9px;text-decoration:none;font-weight:bold;margin-top:15px}
+.btn:hover{background:#a66aff}
+section{padding:75px 7%}
+.section-title{text-align:center;font-size:32px;margin-bottom:15px}
+.subtitle{text-align:center;color:#aaa3b5;margin-bottom:40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#15121c;border:1px solid #30243e;border-radius:15px;padding:25px;transition:.3s}
+.card:hover{transform:translateY(-5px);border-color:#873cff}
+.card h3{color:#b98aff;margin-bottom:12px}
+.card p{color:#b9b3c5;font-size:14px}
+.about{text-align:center;background:#120e19}
+.about p{max-width:700px;margin:20px auto;color:#b9b3c5}
+.contact{text-align:center;background:#1b1029}
+footer{padding:25px;text-align:center;color:#999;font-size:13px;border-top:1px solid #30243e}
+@media(max-width:600px){
+header{flex-direction:column;gap:12px}
+nav a{margin:0 7px;font-size:12px}
+.hero{padding:65px 6%}
+section{padding:55px 6%}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">WebMarket <span>CI.</span></div>
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#services">Services</a>
+<a href="#apropos">À propos</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<main>
+<section class="hero" id="accueil">
+<div class="tag">Votre partenaire digital en Côte d'Ivoire</div>
+<h1>Votre commerce mérite <span>d'être en ligne.</span></h1>
+<p>Nous créons des sites e-commerce modernes, personnalisés et adaptés à votre activité pour vous aider à développer vos ventes.</p>
+<a href="#contact" class="btn">Démarrer mon projet →</a>
+</section>
+
+<section id="services">
+<h2 class="section-title">Nos services</h2>
+<p class="subtitle">Des solutions digitales adaptées à votre commerce.</p>
+<div class="grid">
+<div class="card">
+<h3>Création de sites</h3>
+<p>Des sites professionnels adaptés à l'identité de votre magasin et à vos besoins.</p>
+</div>
+<div class="card">
+<h3>Boutiques en ligne</h3>
+<p>Présentez vos produits, recevez des commandes et développez votre activité sur Internet.</p>
+</div>
+<div class="card">
+<h3>Paiements en ligne</h3>
+<p>Des solutions de paiement adaptées aux besoins de votre commerce.</p>
+</div>
+<div class="card">
+<h3>Livraison</h3>
+<p>Des fonctionnalités pour organiser les livraisons de vos clients.</p>
+</div>
+</div>
+</section>
+
+<section class="about" id="apropos">
+<h2 class="section-title">Qui sommes-nous ?</h2>
+<p>WebMarket CI est une agence digitale spécialisée dans la création de sites e-commerce personnalisés. Nous accompagnons les commerçants ivoiriens dans leur transformation numérique.</p>
+</section>
+
+<section class="contact" id="contact">
+<h2 class="section-title">Prêt à digitaliser votre commerce ?</h2>
+<p>Parlons ensemble de votre projet et construisons votre boutique en ligne.</p>
+<a href="mailto:contact@webmarketci.com" class="btn">Nous contacter</a>
+</section>
+</main>
+
+<footer>
+© 2026 WebMarket CI. Tous droits réservés.
+<br>Votre commerce en ligne, notre priorité !
+</footer>
+
+</body>
+</html>
+
